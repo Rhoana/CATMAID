@@ -1109,7 +1109,11 @@ var WindowMaker = new function()
     content.appendChild( container );
 
     container.innerHTML =
-      '<input type="button" id="refresh_ontology_editor" value="refresh" style="display:block; float:left;" />' +
+      '<table class="headline"><tr>' +
+      '<td><input type="button" id="refresh_ontology_editor" value="refresh" style="display:block; float:left;" /><td>' +
+      '<td>Work space:</td><td><input class="headline" type="radio" name="ontology_space" value="project" checked> project</input></td>' +
+      '<td><input class="headline" type="radio" name="ontology_space" value="classification"> classification</input></td>' +
+      '</tr></table>' +
       '<br clear="all" />' +
       '<div id="ontology_known_roots">Known root class names: <span id="known_root_names"></span></div>' +
       '<div id="ontology_warnings"></div>' +

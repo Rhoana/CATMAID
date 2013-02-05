@@ -239,6 +239,11 @@ div#ontology_editor_widget div#ontology_warnings
     color: red;
 }
 
+div#ontology_editor_widget .headline
+{
+    vertical-align: middle;
+}
+
 .wider-context-menu
 {
     min-width: 220px;

@@ -70,6 +70,10 @@ AUTHENTICATION_BACKENDS = (
 # User-ID of the anonymous (i.e. not-logged-in) user. This is usualld -1.
 ANONYMOUS_USER_ID = -1
 
+# Project-ID of classification dummy project. This is used to link ontologies
+# and classifications to multiple projects.
+CLASSIFICATION_PROJECT_ID = -1
+
 SOUTH_DATABASE_ADAPTERS = {'default': 'south.db.postgresql_psycopg2'}
 
 # The current site in the django_site database table. This is used so that
